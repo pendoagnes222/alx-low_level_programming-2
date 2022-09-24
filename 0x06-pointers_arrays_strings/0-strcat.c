@@ -1,19 +1,28 @@
 #include "main.h"
 
 /**
- *_strccat -concatenates the string pointed to by @src to
- *the end of the string pointed to by @dest
- *@dest: string that will be oppended
- *@src: string to be concenated upon
- *Return:return pointer to @dest
+ * _strcat- function that concatenates two strings
+ * @dest: first string
+ * @src: second string
+ * Return: two strings combined
  */
+
+char *_strcat(char *dest, char *src);
 
 char *_strcat(char *dest, char *src)
 {
-int index = o, dest_len = 0;
-while(dest[index++])
-dest_len++;
-for(index = o; scr[index];index++)
-dest[dest_len++] = src[index];
-return(dest);
-}	
+	int length, srclength = 0;
+	char *finalptr = dest;
+
+	for (length = 0; dest[length] != '\0'; length++)
+	{
+	}
+	for (srclength = 0; src[srclength] != '\0'; srclength++)
+	{
+		dest[length] = src[srclength];
+		length++;
+	}
+
+	dest[length] = '\0';
+	return (finalptr);
+}
