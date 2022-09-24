@@ -1,32 +1,31 @@
 #include "main.h"
 
 /**
- * print_square- prints a square
- * @size: size of the square
+ * print_square - prints square using "#" character of a given size
+ *@size: size of square
+ *
+ * Return: void
  */
-
-void print_square(int size);
-
 void print_square(int size)
 {
-	int l = 0;
-	int j = 0;
+	int i = 0, c;
 
 	if (size > 0)
 	{
-		while (l < size)
+		while (i < size)
 		{
-			j = 0;
-
-			for (; j < size; ++j)
+			c = 0;
+			while (c < size)
 			{
-				_putchar('#');
+				_putchar(35);
+				c++;
 			}
 			_putchar('\n');
-			l++;
+			i++;
 		}
 	}
-
-	else if (size <= 0)
+	else
+	{
 		_putchar('\n');
+	}
 }

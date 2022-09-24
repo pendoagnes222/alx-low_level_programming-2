@@ -1,25 +1,22 @@
 #include "main.h"
 
 /**
- * print_line- function that draws a line
- * @n: length of line
+ * print_line - prints line using "_" character of n length
+ *@n: length of the line
+ *
+ * Return: void
  */
-
-void print_line(int n);
-
 void print_line(int n)
 {
-	int l = 0;
+	int i = 0;
 
 	if (n > 0)
 	{
-		while (l < n)
+		while (i < n)
 		{
-			_putchar('_');
-			l++;
+			_putchar(95);
+			i++;
 		}
-		_putchar('\n');
 	}
-	else if (n <= 0)
-		_putchar('\n');
+	_putchar('\n');
 }
