@@ -1,1 +1,1 @@
-void _puts_recursion(char *s);
+oid _print_rev_recursion(char *s);
