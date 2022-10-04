@@ -1,1 +1,1 @@
-void free_grid(int **grid, int height);
+char **strtow(char *str);
