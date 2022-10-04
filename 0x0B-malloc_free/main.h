@@ -1,1 +1,1 @@
-char **strtow(char *str);
+char *argstostr(int ac, char **av);
