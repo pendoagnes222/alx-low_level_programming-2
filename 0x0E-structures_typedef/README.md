@@ -1,1 +1,1 @@
-3. Defining a new type dog_t as a new name for the type struct dog.
+4. Writting a function that create a new dog
