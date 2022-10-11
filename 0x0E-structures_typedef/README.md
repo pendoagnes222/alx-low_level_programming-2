@@ -1,1 +1,1 @@
-0.defining a newtype struct dog
+Writting a function that initializes a variable of type struct dog.
