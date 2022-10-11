@@ -7,12 +7,12 @@
  * @owner: owner
  *
  * Description: dog object having 3 props
- *  */
+ */
 struct dog
 {
-       char *name;
-       float age;
-       char *owner;
+char *name;
+float age;
+char *owner;
 };
 /**
  * typedef struct -define new object
