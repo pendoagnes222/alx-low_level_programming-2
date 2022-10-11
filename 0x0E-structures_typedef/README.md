@@ -1,1 +1,1 @@
-Writting a function that initializes a variable of type struct dog.
+2. Writting afunction that prints a struct dog
