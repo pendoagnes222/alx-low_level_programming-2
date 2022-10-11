@@ -1,1 +1,1 @@
-Structure is a user defined data type
+0x0E. C - Structures, typedef
