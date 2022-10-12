@@ -1,1 +1,1 @@
-Writting a function-like macro SUM(x, y) that computes the sum of the no. x and y
+Create a header file that defines a macro named PI as an abbreviation for the token 3.14159265359.
