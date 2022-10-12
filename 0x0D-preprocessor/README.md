@@ -1,1 +1,1 @@
-writting a program that prints the name of the file it was compiled 
+Writting a function-like macro ABS(x) that computes the absolute value of a no.x
