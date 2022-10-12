@@ -1,1 +1,1 @@
-Writting a function-like macro ABS(x) that computes the absolute value of a no.x
+Writting a function-like macro SUM(x, y) that computes the sum of the no. x and y
