@@ -1,1 +1,1 @@
-Write a program that performs simple operations.
+this is for 0x0E
