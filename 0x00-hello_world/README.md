@@ -1,7 +1,7 @@
 # 0x00. C - Hello, World
 
 ## 0-preprocessor
-> Runs a C file through the preprocessor and save the result into another file.
+> Write a script that runs a C file through the preprocessor and save the result into another file.
 
 ## 1-compiler
 > Compiles a C file but does not link. Output file is the same name as the C file but with extension ```.o``` instead of ```.c```
